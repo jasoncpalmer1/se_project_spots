@@ -56,8 +56,12 @@
   gap: 8px;
   border: none;
   background-color: transparent;
-  cursor: pointer;
   color: #212121;
+}
+
+.profile__edit-btn:hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -76,6 +80,10 @@
   height: 52px;
   border: none;
   border-radius: 8px;
+}
+
+.profile__add-btn:hover {
+  opacity: 80%;
   cursor: pointer;
 }
 
@@ -109,6 +117,10 @@
   .profile__column {
     margin: 0 0 20px;
     text-align: center;
+  }
+
+  .profile__edit-btn {
+    margin: 0 auto 20px;
   }
 
   .profile__add-btn {
